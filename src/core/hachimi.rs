@@ -1067,8 +1067,8 @@ impl Language {
     pub const fn name(&self) -> &'static str {
         match self {
             Language::English => "English",
-            Language::TChinese => "繁體中文",
-            Language::SChinese => "简体中文",
+            Language::TChinese => "Traditional Chinese",
+            Language::SChinese => "Simplified Chinese",
             Language::Vietnamese => "Tiếng Việt",
             Language::Indonesian => "Bahasa Indonesia",
             Language::Spanish => "Español (ES)",
