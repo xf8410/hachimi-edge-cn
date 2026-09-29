@@ -2932,7 +2932,7 @@ impl Gui {
 
         add_font!(fonts, proportional_fonts, "FontAwesome.otf");
         add_font!(fonts, proportional_fonts, "Inter_24pt-Regular.ttf");
-        add_font!(fonts, proportional_fonts, "AlibabaPuHuiTi-3-45-Light.otf");
+        // (AlibabaPuHuiTi removed in 7094c48 + fix: include_bytes! would fail without the file)
         add_font!(fonts, proportional_fonts, "MPLUS1-Regular.ttf");
         add_font!(fonts, proportional_fonts, "Pretendard-Regular.ttf");
 
