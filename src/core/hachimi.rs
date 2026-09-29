@@ -768,7 +768,7 @@ pub struct Config {
     #[serde(default = "Config::default_tl_auto_updater_interval_sec")]
     pub tl_auto_updater_interval_sec: u64,
 
-    #[serde(default)]
+    #[serde(default = "Config::default_true")]  // cn fork: default disable_translations = true (no translations)
     pub disable_translations: bool,
     #[serde(default = "Config::default_gui_scale")]
     pub gui_scale: f32,
